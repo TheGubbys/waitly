@@ -50,14 +50,14 @@
                 <div class="mt-4">
                     <div class="row p-3">
                         <div class="col-md-9 col-12 border-bottom">
-                            <input type="text" class="border-0 w-100 b-text"  placeholder="Søg på navn eller addresse">
+                            <input type="text" class="border-0 w-100 b-text text-white"  placeholder="Søg på navn eller addresse">
                         </div>
                         <div class="col-md-3 col-12 text-center">
                             <a class="btn cream d-flex mt-2 mt-md-0 justify-content-center" href="./search.php">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#FFF" class="bi bi-search" viewBox="0 0 16 16">
                                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
                                 </svg>
-                                <p>Søg</p>
+                                <p class="text-white">Søg</p>
                             </a>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                     <div class="col-12 p-2">
                         <div class="input-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text left cream">Max Salgspris</span>
+                                <span class="input-group-text left cream text-white">Max Salgspris</span>
                             </div>
                             <input type="number" min="0" class="form-control center1" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
                         </div>
@@ -74,22 +74,22 @@
                     <div class="col-12 p-2">
                         <div class="input-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text left cream">Min. Areal</span>
+                                <span class="input-group-text left cream text-white">Min. Areal</span>
                             </div>
                             <input type="number" min="0" class="form-control center1" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
                             <div class="input-group-append">
-                                <span class="input-group-text right cream">m<sup>2</sup></span>
+                                <span class="input-group-text right cream text-white">m<sup>2</sup></span>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 p-2">
                         <div class="input-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text left cream">Max. Areal</span>
+                                <span class="input-group-text left cream text-white">Max. Areal</span>
                             </div>
                             <input type="number" min="0" class="form-control center1" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
                             <div class="input-group-append">
-                                <span class="input-group-text right cream">m<sup>2</sup></span>
+                                <span class="input-group-text right cream text-white">m<sup>2</sup></span>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                     <div class="col-12 col-xl-6 p-2">
                         <div class="input-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text left cream">Max Salgspris</span>
+                                <span class="input-group-text left cream text-white">Max Salgspris</span>
                             </div>
                             <input type="number" min="0" class="form-control center" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
                         </div>
@@ -108,22 +108,22 @@
                     <div class="col-6 col-xl-3 p-2">
                         <div class="input-group pb-sm-3">
                             <div class="input-group-prepend">
-                                <span class="input-group-text left cream">Min. Areal</span>
+                                <span class="input-group-text left cream text-white">Min. Areal</span>
                             </div>
                             <input type="number" min="0" class="form-control center" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
                             <div class="input-group-append">
-                                <span class="input-group-text right cream">m<sup>2</sup></span>
+                                <span class="input-group-text right cream text-white">m<sup>2</sup></span>
                             </div>
                         </div>
                     </div>
                     <div class="col-6 col-xl-3 p-2">
                         <div class="input-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text left cream">Max. Areal</span>
+                                <span class="input-group-text left cream text-white">Max. Areal</span>
                             </div>
                             <input type="number" min="0" class="form-control center" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
                             <div class="input-group-append">
-                                <span class="input-group-text right cream">m<sup>2</sup></span>
+                                <span class="input-group-text right cream text-white">m<sup>2</sup></span>
                             </div>
                         </div>
                     </div>
@@ -133,15 +133,15 @@
     </div>
 </div>
 
-<div class="secondary-bg">
+<div class="cream">
     <div class="container">
         <div class="row infoseg">
             <div class="col-lg-5 col-10 offset-lg-6 py-3 my-auto">
-                <h3 class="h-text">Er du bestyrelse og administration?</h3>
-                <p class="u-text">Læs mere om, hvad Waitly kan tilbyde dig og din forening</p>
+                <h3 class="h-text text-white">Er du bestyrelse og administration?</h3>
+                <p class="u-text text-white">Læs mere om, hvad Waitly kan tilbyde dig og din forening</p>
             </div>
             <div class="col-lg-1 col-2 text-center my-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FFF" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                 </svg>
             </div>
