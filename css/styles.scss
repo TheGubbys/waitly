@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol {
+	margin: 2px 10px 2px 10px;
+	padding: 0;
+	list-style-position: inside;
+}
+
+li {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.primary-bg{
+	background-color: #255b91;
+}
+
+.secondary-bg{
+	background-color: #c4d8ff;
+}
+
+.h-text{
+	font-family: 'Lato', sans-serif;
+}
+
+u-text{
+	font-family: 'Raleway', sans-serif;
+}
+
+/*Denne klasse er teksten som er centreret i billedet*/
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*Denne klasse er til billedet*/
+.hero{
+	height: calc(100vh - 150px);
+	object-fit: cover;
+	width: 100vw;
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+	width: 100%;
+	z-index:1;
+}
+
+.img-overlay {
+	position: relative;
+}
+
+.project-overlay {
+	width:100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+	outline:0px !important;
+	-webkit-appearance:none;
+	box-shadow: none !important;
+}
+
+.b-text{
+	font-size: clamp(12px, 2vw, 16px) !important;
+}
+
+.infoseg{
+	height:150px;
+}
+
+.input-group-lg>.form-control, .input-group-lg>.form-select, .input-group-lg>.input-group-text, .input-group-lg>.btn{
+	font-size: 1rem !important;
+	padding:0 !important;
+}
+
+.cream{
+	background-color: #ffa56c;
+}
+
+.creamt{
+	color: #ffa56c;
+}
+
+.left{
+	border-bottom-right-radius:0 !important;
+	border-top-right-radius:0 !important;
+	font-size: clamp(12px, 2vw, 16px) !important;
+	border-color: #ffa56c !important;
+}
+
+.right{
+	border-bottom-left-radius:0 !important;
+	border-top-left-radius:0 !important;
+	font-size: clamp(12px, 2vw, 16px) !important;
+	border-color: #ffa56c !important;
+}
+
+.center{
+	border:none !important;
+}
+
+.center1{
+	border-color: #ffa56c !important;
+}
+
+.form-control {
+	font-size: clamp(12px, 2vw, 16px) !important;
+}
+
+.bblock{
+	max-height:250px;
+}
