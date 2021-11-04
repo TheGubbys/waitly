@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/98690cc59f.js" crossorigin="anonymous"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/header.css" rel="stylesheet" type="text/css">
@@ -47,7 +47,7 @@
         <div class="centered w-75">
             <h1 class="text-center text-white lato-text">Vil du købe en andelsbolig?</h1>
             <p class="text-center text-white lato-text pt-3">Find populære ventelister i hele landet</p>
-            <div class="container-lg bg-white rounded-3 mb-2">
+            <div class="container bg-white rounded-3 mb-2">
                 <div class="mt-4">
                     <div class="row p-3">
                         <div class="col-md-9 col-12 border-bottom">
@@ -56,50 +56,49 @@
                         </div>
                         <div class="col-md-3 col-12 text-center">
                             <a class="btn cream d-flex mt-2 mt-md-0 justify-content-center" href="./search.php">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#FFF" class="bi bi-search" viewBox="0 0 16 16">
-                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                                </svg>
                                 <p class="text-white">Søg</p>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="row pb-2 px-3 d-sm-none d-flex">
-                    <div class="col-12 p-2">
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text left cream text-white">Max Salgspris</span>
-                            </div>
-                            <input type="number" min="0" class="form-control center1" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
-                        </div>
-                    </div>
-                    <div class="col-12 p-2">
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text left cream text-white">Min. Areal</span>
-                            </div>
-                            <input type="number" min="0" class="form-control center1" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
-                            <div class="input-group-append">
-                                <span class="input-group-text right cream text-white">m<sup>2</sup></span>
+                <div class="container"> <!--mobile-->
+                    <div class="row pb-2 px-2 d-sm-none d-flex">
+                        <div class="col-12 p-2">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text left cream text-white">Max Salgspris</span>
+                                </div>
+                                <input type="number" min="0" class="form-control center1" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12 p-2">
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text left cream text-white">Max. Areal</span>
+                        <div class="col-12 p-2">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text left cream text-white">Min. Areal</span>
+                                </div>
+                                <input type="number" min="0" class="form-control center1" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
+                                <div class="input-group-append">
+                                    <span class="input-group-text right cream text-white">m<sup>2</sup></span>
+                                </div>
                             </div>
-                            <input type="number" min="0" class="form-control center1" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
-                            <div class="input-group-append">
-                                <span class="input-group-text right cream text-white">m<sup>2</sup></span>
+                        </div>
+                        <div class="col-12 p-2">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text left cream text-white">Max. Areal</span>
+                                </div>
+                                <input type="number" min="0" class="form-control center1" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
+                                <div class="input-group-append">
+                                    <span class="input-group-text right cream text-white">m<sup>2</sup></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container py-none"> <!--pc-->
                 <div class="row pb-2 d-none d-sm-flex m-auto">
-                    <div class="col-12 col-xl-6 p-2">
+                    <div class="col-12 col-xl-6 p-2 py-none">
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text left cream text-white">Max Salgspris</span>
@@ -107,7 +106,7 @@
                             <input type="number" min="0" class="form-control center" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null">
                         </div>
                     </div>
-                    <div class="col-6 col-xl-3 p-2">
+                    <div class="col-6 col-xl-3 p-2 pl-none">
                         <div class="input-group pb-sm-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text left cream text-white">Min. Areal</span>
@@ -118,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-xl-3 p-2">
+                    <div class="col-6 col-xl-3 p-2 pr-none">
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text left cream text-white">Max. Areal</span>

@@ -179,7 +179,24 @@ input[type=number]::-webkit-outer-spin-button {
 	font-size: clamp(7px, 2.5vw, 12px) !important;
 }
 
-.p-none{
+.py-none{
 	padding-right:0 !important;
 	padding-left:0 !important;
+}
+
+.pl-none{
+	padding-left: 20px !important;
+}
+
+.pr-none{
+	padding-right: 0px !important;
+}
+
+@media only screen and (max-width: 1200px) {
+	.pr-none{
+		padding-right: 0 !important;
+	}
+	.pl-none{
+		padding-left: 0 !important;
+	}
 }

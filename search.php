@@ -47,6 +47,7 @@
         <div class="col-md-6 col-12">
             <div class="row p-3 border border-2 rounded-3 mx-2">
                 <div class="col-9 border-bottom">
+                    <small class="tinyt lato-text">Hvor vil du søge?</small>
                     <input type="text" class="border-0 w-100 b-text" placeholder="Søg på Forenings navn eller Adresse">
                 </div>
                 <div class="col-3 text-center">
@@ -80,7 +81,7 @@
             </div>
             <div class="beholder"> <!--til at smide fra database i-->
                 <div class="row mt-4 border"> <!--BoligBlock-->
-                    <div class="col-4 bblock p-none d-flex align-items-center">
+                    <div class="col-4 bblock py-none d-flex align-items-center">
                         <img src="./img/1.png" class="img-fluid">
                     </div>
                     <div class="col-8 pt-2">
@@ -113,7 +114,7 @@
                     </div>
                 </div><!--BoligBlock-->
                 <div class="row mt-4 border"> <!--BoligBlock-->
-                    <div class="col-4 bblock p-none d-flex align-items-center">
+                    <div class="col-4 bblock py-none d-flex align-items-center">
                         <img src="./img/2.png" class="img-fluid">
                     </div>
                     <div class="col-8 pt-2">
@@ -146,7 +147,7 @@
                     </div>
                 </div><!--BoligBlock-->
                 <div class="row mt-4 border"> <!--BoligBlock-->
-                    <div class="col-4 bblock p-none d-flex align-items-center">
+                    <div class="col-4 bblock py-none d-flex align-items-center">
                         <img src="./img/3.png" class="img-fluid">
                     </div>
                     <div class="col-8 pt-2">
@@ -218,20 +219,20 @@
                     </div>
                 </div>
                 <div class="row mx-2 ">
-                    <div class="col-12 p-none">
+                    <div class="col-12 py-none">
                         <div>
                             <h4 class="h-text raleway-text">Priser fra: <b>1.961.789,-</b></h4>
                         </div>
                     </div>
                 </div>
                 <div class="row mx-2 border-bottom">
-                    <div class="col-5 p-none text-center">
+                    <div class="col-5 py-none text-center">
                         <sub class="creamt tinyt">Antal Lejligheder: <b>11</b></sub>
                     </div>
-                    <div class="col-3 p-none">
+                    <div class="col-3 py-none">
                         <sub class="creamt tinyt">Byggeår: <b>1990</b></sub>
                     </div>
-                    <div class="col-4 p-none">
+                    <div class="col-4 py-none">
                         <sub class="creamt tinyt">Kvadratmeter: <b>86</b></sub>
                     </div>
                 </div>
@@ -260,20 +261,20 @@
                     </div>
                 </div>
                 <div class="row mx-2 ">
-                    <div class="col-12 p-none">
+                    <div class="col-12 py-none">
                         <div>
                             <h4 class="h-text lato-text">Priser fra: <b>1.366.075,-</b></h4>
                         </div>
                     </div>
                 </div>
                 <div class="row mx-2 border-bottom text-center">
-                    <div class="col-5 p-none">
+                    <div class="col-5 py-none">
                         <sub class="creamt tinyt">Antal Lejligheder: <b>84</b></sub>
                     </div>
-                    <div class="col-3 p-none">
+                    <div class="col-3 py-none">
                         <sub class="creamt tinyt">Byggeår: <b>2003</b></sub>
                     </div>
-                    <div class="col-4 p-none">
+                    <div class="col-4 py-none">
                         <sub class="creamt tinyt">Kvadratmeter: <b>49</b></sub>
                     </div>
                 </div>
@@ -302,20 +303,20 @@
                     </div>
                 </div>
                 <div class="row mx-2 ">
-                    <div class="col-12 p-none">
+                    <div class="col-12 py-none">
                         <div>
                             <h4 class="h-text lato-text">Priser fra: <b>506.645,-</b></h4>
                         </div>
                     </div>
                 </div>
                 <div class="row mx-2 border-bottom text-center">
-                    <div class="col-5 p-none">
+                    <div class="col-5 py-none">
                         <sub class="creamt tinyt">Antal Lejligheder: <b>68</b></sub>
                     </div>
-                    <div class="col-3 p-none">
+                    <div class="col-3 py-none">
                         <sub class="creamt tinyt">Byggeår: <b>1960</b></sub>
                     </div>
-                    <div class="col-4 p-none">
+                    <div class="col-4 py-none">
                         <sub class="creamt tinyt">Kvadratmeter: <b>52</b></sub>
                     </div>
                 </div>
