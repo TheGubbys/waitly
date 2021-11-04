@@ -60,7 +60,7 @@
     </div>
 </div>
 
-<div class="container pt-2 d-md-flex d-none">
+<div class="container pt-2 d-md-flex d-none pb-4">
     <div class="row mx-2">
         <div class="col-md-6 col-12">
             <div class="row">
@@ -209,7 +209,7 @@
         <div class="col-12">
             <div class="m-3 mt-4 border"> <!--BoligBlock-Mobile-->
                 <div class="thumbnail">
-                    <img src="./img/hero.jpg" alt="" class="img-fluid">
+                    <img src="./img/1.png" alt="" class="img-fluid">
                     <div class="caption">
                         <div class="text-white p-2 b-text">
                             <h5>Sundtoldvej 5. 3. th.</h5>
@@ -225,14 +225,98 @@
                     </div>
                 </div>
                 <div class="row mx-2 border-bottom">
-                    <div class="col-5 p-none">
-                        <sub class="creamt tinyt">Antal Lejligheder: 11</sub>
+                    <div class="col-5 p-none text-center">
+                        <sub class="creamt tinyt">Antal Lejligheder: <b>11</b></sub>
                     </div>
                     <div class="col-3 p-none">
-                        <sub class="creamt tinyt">Byggeår: 1990</sub>
+                        <sub class="creamt tinyt">Byggeår: <b>1990</b></sub>
                     </div>
                     <div class="col-4 p-none">
-                        <sub class="creamt tinyt">Kvadratmeter: 86</sub>
+                        <sub class="creamt tinyt">Kvadratmeter: <b>86</b></sub>
+                    </div>
+                </div>
+                <div class="row text-center py-2">
+                    <div class="col-6 d-flex justify-content-center">
+                        <a class="btn-sm btn btn-outline-secondary creamt">
+                            Se Forening
+                        </a>
+                    </div>
+                    <div class="col-6 d-flex justify-content-center align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffa56c" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <p class="creamt b-text">Se på kort</p>
+                    </div>
+                </div>
+            </div>
+            <div class="m-3 mt-4 border"> <!--BoligBlock-Mobile-->
+                <div class="thumbnail">
+                    <img src="./img/2.png" alt="" class="img-fluid">
+                    <div class="caption">
+                        <div class="text-white p-2 b-text">
+                            <h5 class="raleway-text">Axel Heides Gård</h5>
+                            <p class="raleway-text">2300 København S</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-2 ">
+                    <div class="col-12 p-none">
+                        <div>
+                            <h4 class="h-text lato-text">Priser fra: <b>1.366.075,-</b></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-2 border-bottom text-center">
+                    <div class="col-5 p-none">
+                        <sub class="creamt tinyt">Antal Lejligheder: <b>84</b></sub>
+                    </div>
+                    <div class="col-3 p-none">
+                        <sub class="creamt tinyt">Byggeår: <b>2003</b></sub>
+                    </div>
+                    <div class="col-4 p-none">
+                        <sub class="creamt tinyt">Kvadratmeter: <b>49</b></sub>
+                    </div>
+                </div>
+                <div class="row text-center py-2">
+                    <div class="col-6 d-flex justify-content-center">
+                        <a class="btn-sm btn btn-outline-secondary creamt">
+                            Se Forening
+                        </a>
+                    </div>
+                    <div class="col-6 d-flex justify-content-center align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffa56c" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <p class="creamt b-text">Se på kort</p>
+                    </div>
+                </div>
+            </div>
+            <div class="m-3 mt-4 border"> <!--BoligBlock-Mobile-->
+                <div class="thumbnail">
+                    <img src="./img/3.png" alt="" class="img-fluid">
+                    <div class="caption">
+                        <div class="text-white p-2 b-text">
+                            <h5 class="raleway-text">Gl. Skovlundevej 29-109</h5>
+                            <p class="raleway-text">2750 Ballerup</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-2 ">
+                    <div class="col-12 p-none">
+                        <div>
+                            <h4 class="h-text lato-text">Priser fra: <b>506.645,-</b></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-2 border-bottom text-center">
+                    <div class="col-5 p-none">
+                        <sub class="creamt tinyt">Antal Lejligheder: <b>68</b></sub>
+                    </div>
+                    <div class="col-3 p-none">
+                        <sub class="creamt tinyt">Byggeår: <b>1960</b></sub>
+                    </div>
+                    <div class="col-4 p-none">
+                        <sub class="creamt tinyt">Kvadratmeter: <b>52</b></sub>
                     </div>
                 </div>
                 <div class="row text-center py-2">

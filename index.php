@@ -46,7 +46,7 @@
     <div class="centered project-overlay">
         <div class="centered w-75">
             <h1 class="text-center text-white lato-text">Vil du købe en andelsbolig?</h1>
-            <p class="text-center text-white lato-text">Find populære ventelister i hele landet</p>
+            <p class="text-center text-white lato-text pt-3">Find populære ventelister i hele landet</p>
             <div class="container-lg bg-white rounded-3 mb-2">
                 <div class="mt-4">
                     <div class="row p-3">
