@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-xl navbar-dark text-white bg-dark navbar-fixed-top fixed-top h-text">
+<nav class="navbar navbar-expand-xl text-white bg-dark sticky-top primary-bg">
     <div class="container">
         <a class="navbar-brand" href="index.php">
             <img src="./img/logo.png" width="150px" height="80px" class="d-inline-block align-top" alt="Logo">
@@ -10,23 +10,23 @@
         </button>
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item text-right">
+                <li class="nav-item text-right raleway-text tinyt">
                     <a class="nav-link text-white" href="#boligsøgende">Er du boligsøgende?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#administrator">For bestyrelser og administratorer</a>
+                    <a class="nav-link text-white raleway-text tinyt" href="#administrator">For bestyrelser og administratorer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#interesseliste">Interesseliste</a>
+                    <a class="nav-link text-white raleway-text tinyt" href="#interesseliste">Interesseliste</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#andelsbolig">Blog om andelsboligmarkedet</a>
+                    <a class="nav-link text-white raleway-text tinyt" href="#andelsbolig">Blog om andelsboligmarkedet</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#webinarer">Webinarer</a>
+                    <a class="nav-link text-white raleway-text tinyt" href="#webinarer">Webinarer</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-white" href="#konto">Min konto</a>
+                    <a class="nav-link text-white raleway-text tinyt" href="#konto">Min konto</a>
                 </li>
             </ul>
         </div>

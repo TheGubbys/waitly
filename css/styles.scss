@@ -4,6 +4,8 @@
 
 body {
 	margin: 0;
+	max-width:100%;
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,23 +32,25 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
+	object-fit: cover;
 }
 
 .primary-bg{
-	background-color: #255b91;
+	background-color: #255b91 !important;
 }
 
 .secondary-bg{
-	background-color: #c4d8ff;
+	background-color: #c4d8ff !important;
 }
 
-.h-text{
+.lato-text{
 	font-family: 'Lato', sans-serif;
 }
 
-u-text{
+.raleway-text{
 	font-family: 'Raleway', sans-serif;
 }
+
 
 /*Denne klasse er teksten som er centreret i billedet*/
 
@@ -117,8 +121,9 @@ label:focus,
 }
 
 .creamt{
-	color: #ffa56c;
+	color: #f87c4b;
 }
+
 
 .left{
 	border-bottom-right-radius:0 !important;
@@ -156,20 +161,6 @@ input[type=number]::-webkit-outer-spin-button {
 	margin: 0;
 }
 
-.map-responsive{
-	overflow:hidden;
-	padding-bottom:56.25%;
-	position:relative;
-	height:0;
-}
-
-.map-responsive iframe{
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	position:absolute;
-}
 
 .thumbnail {
 	position: relative;
@@ -185,5 +176,10 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .tinyt{
-	font-size: clamp(9px, 2.5vw, 12px) !important;
+	font-size: clamp(7px, 2.5vw, 12px) !important;
+}
+
+.p-none{
+	padding-right:0 !important;
+	padding-left:0 !important;
 }

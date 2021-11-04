@@ -22,6 +22,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/header.css" rel="stylesheet" type="text/css">
@@ -44,13 +45,14 @@
     <img class="hero" src="./img/hero.jpg" alt="hero">
     <div class="centered project-overlay">
         <div class="centered w-75">
-            <h1 class="text-center text-white">Vil du købe en andelsbolig?</h1>
-            <p class="text-center text-white">Find populære ventelister i hele landet</p>
+            <h1 class="text-center text-white lato-text">Vil du købe en andelsbolig?</h1>
+            <p class="text-center text-white lato-text">Find populære ventelister i hele landet</p>
             <div class="container-lg bg-white rounded-3 mb-2">
                 <div class="mt-4">
                     <div class="row p-3">
                         <div class="col-md-9 col-12 border-bottom">
-                            <input type="text" class="border-0 w-100 b-text text-white"  placeholder="Søg på navn eller addresse">
+                            <small class="tinyt lato-text">Hvor vil du søge?</small>
+                            <input type="text" class="border-0 w-100 lato-text text-white"  placeholder="Søg på Forenings navn eller Adresse">
                         </div>
                         <div class="col-md-3 col-12 text-center">
                             <a class="btn cream d-flex mt-2 mt-md-0 justify-content-center" href="./search.php">
