@@ -48,7 +48,7 @@
             <div class="row p-3 border border-2 rounded-3 mx-2">
                 <div class="col-9 border-bottom">
                     <small class="tinyt lato-text">Hvor vil du søge?</small>
-                    <input type="text" class="border-0 w-100 b-text" placeholder="Søg på Forenings navn eller Adresse">
+                    <input type="text" class="border-0 w-100 b-text lato-text" placeholder="Søg på Forenings navn eller Adresse">
                 </div>
                 <div class="col-3 text-center">
                     <a class="btn cream d-flex mt-2 mt-md-0 justify-content-center" href="#input">

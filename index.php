@@ -52,7 +52,7 @@
                     <div class="row p-3">
                         <div class="col-md-9 col-12 border-bottom">
                             <small class="tinyt lato-text">Hvor vil du søge?</small>
-                            <input type="text" class="border-0 w-100 lato-text"  placeholder="Søg på Forenings navn eller Adresse">
+                            <input type="text" class="border-0 w-100 lato-text b-text"  placeholder="Søg på Forenings navn eller Adresse">
                         </div>
                         <div class="col-md-3 col-12 text-center">
                             <a class="btn cream d-flex mt-2 mt-md-0 justify-content-center" href="./search.php">
