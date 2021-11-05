@@ -32,9 +32,3 @@
         </div>
     </div>
 </nav>
-
-<script>
-    $(window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 1080);
-    });
-</script>

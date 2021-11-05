@@ -61,12 +61,30 @@
     </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Indsæt søgekriterier som følge af mockup's layout, opsat med bootstrap grid...<br><br> Senere.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Afbryd</button>
+                <button type="button" class="btn btn-success">Gem og Luk</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container pt-2 d-md-flex d-none pb-4">
     <div class="row mx-2">
         <div class="col-md-6 col-12">
             <div class="row">
                 <p class="b-text">Tryk for at tilføje nogle filtre til din søgning</p>
-                <a class="col-md-6 col-12 btn border border-2 rounded-3" href="#">
+                <a class="col-md-6 col-12 btn border border-2 rounded-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <div class="row">
                     <div class="col-8 d-flex justify-content-start">
                         <p class="">Filtrer søgning</p>
@@ -191,7 +209,7 @@
 <div class="container pt-2 d-md-none d-flex">
     <div class="row mx-2 pt-2">
         <p class="b-text">Tryk nedenfor at tilføje nogle filtre til din søgning</p>
-        <a class="col-md-6 col-10 btn border border-2 rounded-3" href="#">
+        <a class="col-md-6 col-12 btn border border-2 rounded-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <div class="row">
                 <div class="col-8 d-flex justify-content-start">
                     <p>Filtrer søgning</p>
